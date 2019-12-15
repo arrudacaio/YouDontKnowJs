@@ -1,2 +1,4 @@
 # YouDontKnowJs
-aprendendo javascript
+Curso Javascript (gratuito) da rocketseat
+
+
