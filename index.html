@@ -40,6 +40,25 @@
                 }
             }
 
+            // Intervalo e Timeout no Javascript:
+                
+            /* 
+                Um intervalo no javascript é alguma função
+                que ela executa varias vezes dentro de um intervalo.
+            */
+
+            function exibeAlgo(){
+                console.log('Hello World');
+            }
+
+            setInterval(exibeAlgo,1000); // Vai executar a função a cada 1 segundo
+
+            /*
+                O timeout executa a função apenas uma vez, dentro de um intervalo
+                especificado.
+            */
+
+            setTimeout(exibeAlgo,5000); // Medida em milisegundos
 
         </script>
     </body>
