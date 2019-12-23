@@ -7,3 +7,8 @@ const myEggs = ['brown','brown'];
 myEggs[0] = 'amazing';
 myEggs.push('nice!');
 
+// We cant changed the reference, like this:
+/*
+    myEggs = ['brown','pink']; (ERRO)
+
+*/
