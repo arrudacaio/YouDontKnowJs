@@ -2,13 +2,12 @@
  * Learning adding and updating properties in objects
  */
 
- const userRewies = {};
- 
- userRewies.nameUser = 'Caio Cinefilo';
- userRewies['age'] = 19;
+const userRewies = {};
 
- userRewies.age += 1;
+userRewies.nameUser = "Caio Cinefilo";
+userRewies["age"] = 19;
 
- console.log(userRewies.nameUser);
- console.log(userRewies.age);
+userRewies.age += 1;
 
+console.log(userRewies.nameUser);
+console.log(userRewies.age);
