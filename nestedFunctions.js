@@ -16,3 +16,9 @@ function outer() {
   inner();
   //console.log(x * 2);
 }
+
+/**Another sintax to define a function */
+
+const sum = function(x, y) {
+  return x + y;
+};
